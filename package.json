@@ -2,7 +2,7 @@
   "name": "repository-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "github-page/",
+  "homepage": "github-repository-wiki/",
   "type": "module",
   "scripts": {
     "dev": "vite",
