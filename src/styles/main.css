@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, body {
+    @apply m-0 p-0
+}
+
+body {
+    @apply bg-[#22272e]
+}
+
+.base-container {
+    @apply w-full h-full my-3 flex flex-col items-center justify-start
+}
+
+
+.input-container {
+    @apply w-10/12 border-2 border-solid rounded-3xl border-white
+}
+
+input {
+    @apply bg-transparent h-16 w-full text-center text-white
+}
+
+
+.repo-container {
+    @apply w-10/12 mt-10
+}
+
+h3 {
+    @apply text-2xl text-zinc-300
+}
+
+p{
+    @apply text-base text-zinc-500
+}
+
+hr {
+    @apply mt-2
+}
+
+a.show-repo{
+    @apply text-emerald-600 mr-10
+}
+
+a.remove{
+    @apply text-red-500
+}
+
+button {
+    @apply mt-2 w-10/12 py-2 bg-emerald-600 text-zinc-200 rounded-md hover:bg-emerald-700
+}
